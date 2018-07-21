@@ -7,8 +7,10 @@
 /* Wrapper */
 
 	#wrapper {
-		width: _size(inner);
-		max-width: calc(100% - 4em);
+		// width: _size(inner);
+		// max-width: calc(100% - 4em);
+		width: 100vw;
+		height: 100vh;
 		margin: 0 auto;
 
 		@include breakpoint(xsmall) {

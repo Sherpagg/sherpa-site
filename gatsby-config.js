@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter - Stellar by HTML5 UP",
-    author: "Hunter Chang",
-    description: "A Gatsby.js Starter based on Stellar by HTML5 UP"
+    title: "Sherpa.gg",
+    author: "Rob Abby",
+    description: "Elevate your community"
   },
   pathPrefix: '/',
   plugins: [
@@ -32,6 +32,12 @@ module.exports = {
           },
           "gatsby-remark-copy-linked-files",
         ],
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-typography',
+      options: {
+        pathToConfigModule: 'src/utils/typography',
       },
     },
     `gatsby-transformer-sharp`,

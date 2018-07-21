@@ -69,7 +69,8 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-weight: _font(weight);
+		font-family: _font(family-heading);
+		font-weight: _font(weight-bold);
 		line-height: 1.5;
 		margin: 0 0 (_size(element-margin) * 0.35) 0;
 		letter-spacing: _font(letter-spacing);
@@ -135,6 +136,7 @@
 		border: solid 1px;
 		font-family: _font(family-fixed);
 		font-size: 0.9em;
+		font-weight: _font(weight-light);
 		margin: 0 0.25em;
 		padding: 0.25em 0.65em;
 	}

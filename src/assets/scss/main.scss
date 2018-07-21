@@ -3,7 +3,7 @@
 @import 'libs/mixins';
 @import 'libs/skel';
 @import '../css/font-awesome.min.css';
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400');
+// @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400');
 
 /*
 	Stellar by HTML5 UP
@@ -64,8 +64,12 @@
 
 // Layout.
 
+	@import 'layout/landing';
 	@import 'layout/header';
 	@import 'layout/nav';
 	@import 'layout/main';
 	@import 'layout/footer';
 	@import 'layout/wrapper';
+
+
+#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }

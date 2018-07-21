@@ -11,15 +11,20 @@
     "gatsby-plugin-react-helmet": "^1.0.8",
     "gatsby-plugin-sass": "^1.0.23",
     "gatsby-plugin-sharp": "^1.6.41",
+    "gatsby-plugin-typography": "^1.7.19",
     "gatsby-remark-copy-linked-files": "^1.5.30",
     "gatsby-remark-images": "^1.5.56",
     "gatsby-source-filesystem": "^1.5.27",
     "gatsby-transformer-remark": "^1.7.37",
     "gatsby-transformer-sharp": "^1.6.22",
     "lodash": "^4.17.5",
+    "react-particles-js": "^2.2.0",
     "react-scroll-to-element": "^0.2.0",
     "react-scrollspy": "^3.3.5",
-    "react-waypoint": "^8.0.1"
+    "react-waypoint": "^8.0.1",
+    "typeface-ibm-plex-mono": "0.0.56",
+    "typeface-ibm-plex-sans": "0.0.58",
+    "typeface-roboto": "0.0.54"
   },
   "homepage": "https://github.com/ChangoMan/gatsby-starter-stellar",
   "keywords": [
