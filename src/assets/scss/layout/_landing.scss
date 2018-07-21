@@ -90,7 +90,7 @@ body, .body {
 
         input[type="email"] {
           margin-right: 12px;
-          width:50%;
+          width:30%;
           min-width: 250px;
 
           @include breakpoint(xsmall) {
