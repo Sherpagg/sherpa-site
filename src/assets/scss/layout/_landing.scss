@@ -42,7 +42,7 @@ body, .body {
     z-index: 2;
     @include padding(2.25em, 4em, (0, 0, 0, 0));
     @include breakpoint(xsmall) {
-      top: 13.5%;
+      top: 12%;
 			@include padding(1.25em, 1em, (0, 0, 0, 0));
 		}
 
@@ -63,9 +63,11 @@ body, .body {
       color:#fff;
       font-weight: 200;
       letter-spacing: .65px;
+      margin-right: 0;
       @include breakpoint(xsmall) {
   			max-width: calc(100% - 2em);
-        font-size: 15px;
+        font-size: 13px;
+        margin-bottom: 8px;
   		}
     }
 
@@ -158,7 +160,7 @@ body, .body {
         background: linear-gradient(to right, #396afc, #2948ff);
 
         @include breakpoint(xsmall) {
-          height:85px;
+          height:75px;
         }
       }
       &:nth-child(2) {
