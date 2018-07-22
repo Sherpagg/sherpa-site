@@ -29,10 +29,9 @@ class Header extends Component {
             Elevate your gaming, grow your community
           </h1>
           <p>
-            With Sherpa, creating and managing events for your clan or stream is
-            incredibly simple. Our discord & twitch integration meets your
-            players where they live, and allows you to manage clan activities in
-            the easiest way possible.
+            Sherpa makes creating and managing events for your clan or stream
+            incredibly simple. Our discord & twitch integration allows for easy
+            management of community activities, making it easier to have fun!
           </p>
 
           <form
