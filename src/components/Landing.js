@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Link from 'gatsby-link';
 import Particles from 'react-particles-js';
+import Trianglify from './Trianglify';
 
 class Header extends Component {
   constructor(props) {
@@ -63,16 +64,17 @@ class Header extends Component {
           <div className="gradient"></div>
           <div className="background-image"></div>
         </div>
+        <Trianglify />
         <Particles
           className="particles"
           params={{
             particles: {
               number: {
-                value: 100,
+                value: 80,
                 density: { enable: true, value_area: 1262.6362266116362 }
               },
               opacity: {
-                value: 0.5,
+                value: 0.75,
                 random: false,
                 anim: { enable: true, speed: 1, opacity_min: 0.1, sync: false }
               },
@@ -81,7 +83,7 @@ class Header extends Component {
               },
               move: {
                 enable: true,
-                speed: 2,
+                speed: 1,
                 direction: "none",
                 random: false,
                 straight: false,
