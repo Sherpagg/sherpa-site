@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Link from 'gatsby-link';
 import Particles from 'react-particles-js';
-import Trianglify from './Trianglify';
 
 class Header extends Component {
   constructor(props) {
@@ -64,7 +63,7 @@ class Header extends Component {
           <div className="gradient"></div>
           <div className="background-image"></div>
         </div>
-        <Trianglify />
+        <div className="triangles"></div>
         <Particles
           className="particles"
           params={{

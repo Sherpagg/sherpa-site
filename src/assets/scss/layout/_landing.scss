@@ -188,21 +188,16 @@ body, .body {
       }
     }
   }
-  .trianglify {
-    display: none;
+  .triangles {
+    // display: none;
     position: absolute;
     right: 0;
     bottom: 0;
+    left: 0;
+    height: 35vh;
+    background: url('../images/346-opt.jpg');
     z-index: 0;
-    opacity: .60;
-
-    svg {
-      position: absolute;
-      bottom: 0;
-      right: 0;
-      transform: scaleX(-1);
-      filter: FlipH;
-    }
+    opacity: .175;
   }
   .particles {
     position: absolute;
