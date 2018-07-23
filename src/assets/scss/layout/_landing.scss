@@ -37,11 +37,13 @@ body, .body {
     z-index: 4;
 
     .title {
-      // font-family: _font(family-heading);
       font-family: 'Acme', sans-serif;
       font-size: 28px;
       color: #EAF2EF;
-      // letter-spacing: -0.025em;
+
+      @include breakpoint(xsmall) {
+        font-size: 22px;
+  		}
     }
   }
 
@@ -183,13 +185,12 @@ body, .body {
         bottom: 0;
         background: #1fa2ff;
         // background: linear-gradient(to right, #000046, #1cb5e0);
-        background: linear-gradient(to right, #396afc, #2948ff);
+        // background: linear-gradient(to right, #396afc, #2948ff);
         background: linear-gradient(to left, #00f260, #0575e6);
       }
     }
   }
   .triangles {
-    // display: none;
     position: absolute;
     right: 0;
     bottom: 0;
