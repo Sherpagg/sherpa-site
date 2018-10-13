@@ -11,7 +11,7 @@ const Header = (props) => (
       </div>
       <h1>sherpa</h1>
       <p>
-        Elevate your gaming, grow your community
+        Elevate your game, grow your community
       </p>
     </header>
 )

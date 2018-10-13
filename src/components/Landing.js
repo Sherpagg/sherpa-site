@@ -26,7 +26,7 @@ class Header extends Component {
 
         <div className="landing__content">
           <h1>
-            Elevate your gaming, grow your community
+            Elevate your game
           </h1>
           <p>
             Sherpa makes creating and managing events for your clan or stream

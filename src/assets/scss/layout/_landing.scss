@@ -1,6 +1,7 @@
 /*
+font-family: 'Roboto Condensed', sans-serif;
 font-family: 'Roboto', sans-serif;
-font-family: 'Acme', sans-serif;
+font-family: 'IBM Plex Sans Condensed', sans-serif;
 font-family: 'IBM Plex Sans', sans-serif;
 font-family: 'IBM Plex Mono', monospace;
 */
@@ -37,7 +38,9 @@ body, .body {
     z-index: 4;
 
     .title {
-      font-family: 'Acme', sans-serif;
+      padding-left: 8px;
+      font-family: 'IBM Plex Sans Condensed', sans-serif;
+      font-weight: bold;
       font-size: 28px;
       color: #EAF2EF;
 
